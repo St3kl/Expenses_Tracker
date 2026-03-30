@@ -3,8 +3,7 @@ import React, {useState} from "react";
 import ExpensesFilter from "./ExpensesFilter";
 import ExpensesList from "./ExpensesList";
 import ExpenseItem from "./ExpenseItem";
-import ExpensesChart from "./ExpensesChart";
-import Card from './Card'
+import ExpensesChart from "./ExpensesChart"; import Card from './Card'
 import "./ExpenseItem.css"
 
 
@@ -29,7 +28,7 @@ return(
 
 
         <ExpensesFilter selected={filteredYear} onChangeFilter={filterChangeHandler}/>
-        <ExpensesChart expense={filteredExpenses}/>
+        {/* <ExpensesChart expense={filteredExpenses}/> */}
         <ExpensesList items={filteredExpenses}/> 
         {/* {expenseContent} */}
         {/* {filteredExpenses.length === 0 && <p>No expenses found.</p>}
