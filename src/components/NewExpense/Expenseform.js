@@ -77,4 +77,4 @@ const ExpenseForm = (props) =>{
 }
 
 // Export Module
-export default ExpenseForm
+export default ExpenseForm;

@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Chartbar = props =>{
+const ChartBar = props =>{
     let barfillHeight = '0%';
     if(props.max > 0){
         barfillHeight = Math.round((props.value / props.maxValue) * 100) + '%'
@@ -15,4 +15,4 @@ return <div className="chart_bar">
 </div>
 }
 
-export default Chartbar
+export default ChartBar;

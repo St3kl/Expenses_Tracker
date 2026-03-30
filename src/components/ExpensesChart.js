@@ -1,5 +1,7 @@
 import React from "react";
-import Chart from "./Chart/chart";
+// import Chart from "./Chart/Chart";
+import NewExpense from "./NewExpense/NewExpense";
+import Chart from "./Chart/chart"
 
 const ExpensesChart = props =>{
 
@@ -22,7 +24,7 @@ const ExpensesChart = props =>{
         const expenseMonth = expense.data.getMonth();
         chartDataPoint[expenseMonth].value += expense.amount;
     }
-return <Chart dataPoint={chartDataPoint}/>
+// return <Chart dataPoint={chartDataPoint}/>
 }
 
 
